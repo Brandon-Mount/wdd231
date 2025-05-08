@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDD231: Web Frontend Devlopment - Brandon Mount</title>
+  <meta name="description" content="Home page for wdd231 course.">
+  <meta name="author" content="Brandon Mount">
+  <title>My Home Page</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script defer src="scripts/scripts.js"></script>
+</head>
+<body>
+  <header>
+    <img src="images/profile.jpg" alt="Profile photo" width="75" height="75">
+    <span>Brandon Mount</span>
+  </header>
+
+  <nav>
+    <button id="menu-button" aria-label="Menu">☰</button>
+    <ul id="nav-menu">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="chamber/index.html">Chamber</a></li>
+      <li><a href="final/index.html">Final</a></li>
+      <li><a href="https://github.com/Brandon-Mount">GitHub Profile</a></li>
+      <li><a href="https://www.linkedin.com">LinkedIn</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Home</h1>
+
+    <section>
+      <h2>Welcome</h2>
+      <p>My name is Brandon Mount. I am 26 years old. I am a husband to an amazing wife, and I have two wonderful children. I love to play games, and spend time in the mountians.</p>
+    </section>
+
+    <section>
+      <h2>Certificate Courses</h2>
+      <div id="course-controls">
+        <button id="all-btn">All Courses</button>
+        <button id="wdd-btn">WDD Courses</button>
+        <button id="cse-btn">CSE Courses</button>
+      </div>
+      <div id="courses"></div>
+      <p>Total Credits: <span id="total-credits"></span></p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>303-731-9992 or bmount44@gmail.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Brandon Mount, Colorado, USA</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
+
