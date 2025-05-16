@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Blue Sky Cafe",
+    "address": "123 Main St, Your Town",
+    "phone": "123-456-7890",
+    "website": "https://www.blueskycafe.com",
+    "image": "bluesky.jpg",
+    "level": 3
+  },
+  {
+    "name": "Tech Solutions Inc.",
+    "address": "456 Innovation Rd, Your Town",
+    "phone": "555-555-1234",
+    "website": "https://www.techsolutions.com",
+    "image": "techsolutions.png",
+    "level": 2
+  },
+  {
+    "name": "Mountain View Realty",
+    "address": "789 Summit Ave, Your Town",
+    "phone": "987-654-3210",
+    "website": "https://www.mvrealty.com",
+    "image": "mountainview.png",
+    "level": 1
+  },
+  {
+    "name": "GreenLeaf Landscaping",
+    "address": "321 Garden Ln, Your Town",
+    "phone": "222-333-4444",
+    "website": "https://www.greenleaflandscaping.com",
+    "image": "greenleaf.jpg",
+    "level": 2
+  },
+  {
+    "name": "Sunshine Fitness Center",
+    "address": "555 Wellness Blvd, Your Town",
+    "phone": "777-888-9999",
+    "website": "https://www.sunshinefitness.com",
+    "image": "sunshine.png",
+    "level": 1
+  },
+  {
+    "name": "Fresh Market Grocery",
+    "address": "888 Fresh Ave, Your Town",
+    "phone": "444-555-6666",
+    "website": "https://www.freshmarketgrocery.com",
+    "image": "freshmarket.png",
+    "level": 3
+  },
+  {
+    "name": "Bright Future Tutoring",
+    "address": "101 Learning St, Your Town",
+    "phone": "999-111-2222",
+    "website": "https://www.brightfuturetutoring.com",
+    "image": "brightfuture.png",
+    "level": 2
+  }
+]
