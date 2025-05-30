@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join the Chamber</title>
+  <link rel="stylesheet" href="styles/chamber.css" />
+  <script defer src="scripts/footer.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Chamber of Commerce</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Join Our Chamber</h1>
+    <form method="get" action="thankyou.html">
+      <label>
+        First Name:
+        <input type="text" name="fname" title="First Name" required autocomplete="given-name" />
+      </label>
+      <label>
+        Last Name:
+        <input type="text" name="lname" title="Last Name" required autocomplete="family-name" />
+      </label>
+      <label>
+        Title:
+        <input type="text" name="title" title="Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}" />
+      </label>
+      <label>
+        Email:
+        <input type="email" name="email" title="Email Address" required autocomplete="email" placeholder="example@email.com" />
+      </label>
+      <label>
+        Mobile Phone:
+        <input type="tel" name="phone" title="Mobile Phone" required autocomplete="tel" />
+      </label>
+      <label>
+        Organization:
+        <input type="text" name="organization" title="Organization Name" required autocomplete="organization" />
+      </label>
+      <label>
+        Membership Level:
+        <select name="membership" title="Membership Level">
+          <option value="np">NP Membership (Free)</option>
+          <option value="bronze">Bronze Membership</option>
+          <option value="silver">Silver Membership</option>
+          <option value="gold">Gold Membership</option>
+        </select>
+      </label>
+      <label>
+        Description:
+        <textarea name="description" title="Business Description"></textarea>
+      </label>
+      <input type="hidden" name="timestamp" id="timestamp" />
+      <input type="submit" value="Submit Application" />
+    </form>
+
+    <!-- Membership Cards -->
+    <section class="membership-cards">
+      <div class="card animate" id="np">
+        <h2>NP Membership</h2>
+        <a href="#modal-np">More Info</a>
+      </div>
+      <div class="card animate" id="bronze">
+        <h2>Bronze Membership</h2>
+        <a href="#modal-bronze">More Info</a>
+      </div>
+      <div class="card animate" id="silver">
+        <h2>Silver Membership</h2>
+        <a href="#modal-silver">More Info</a>
+      </div>
+      <div class="card animate" id="gold">
+        <h2>Gold Membership</h2>
+        <a href="#modal-gold">More Info</a>
+      </div>
+    </section>
+
+    <!-- Modals -->
+    <div class="modal" id="modal-np">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>NP Membership includes community listings, basic training access, and local event invites.</p>
+      </div>
+    </div>
+    <div class="modal" id="modal-bronze">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Bronze includes NP benefits plus discounted booths at events and directory highlighting.</p>
+      </div>
+    </div>
+    <div class="modal" id="modal-silver">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Silver includes all Bronze benefits plus homepage spotlight, ads, and training packages.</p>
+      </div>
+    </div>
+    <div class="modal" id="modal-gold">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Gold gets all other benefits plus VIP invites, keynote slots, and custom promotions.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chamber of Commerce</p>
+     <p>Contact: bmount44@gmail.com | (303) 731-9992</p>
+     <p>&copy; <span id="year"></span> Brandon Mount | WDD 231 | Last Updated: <span id="lastModified"></span></p>
+  </footer>
+
+  <script>
+    // Set timestamp on page load
+    document.getElementById("timestamp").value = new Date().toISOString();
+
+    // Modal logic
+    document.querySelectorAll('.card a').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(link.getAttribute('href')).style.display = 'block';
+      });
+    });
+    document.querySelectorAll('.close').forEach(span => {
+      span.addEventListener('click', () => {
+        span.closest('.modal').style.display = 'none';
+      });
+    });
+  </script>
+</body>
+</html>

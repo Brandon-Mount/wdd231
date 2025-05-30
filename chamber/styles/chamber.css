@@ -170,3 +170,84 @@ nav ul li a {
 .spotlight-card a:hover {
   text-decoration: underline;
 }
+
+/* Membership Cards Styles */
+
+.membership-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .membership-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease forwards;
+}
+
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.3s; }
+.card:nth-child(3) { animation-delay: 0.5s; }
+.card:nth-child(4) { animation-delay: 0.7s; }
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Modal basic styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background: white;
+  margin: 10% auto;
+  padding: 2rem;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+
+
+
+.card {
+  background-color: #f9f9f9;
+  color: #333; /* Set a readable text color */
+}
+
+.modal-content {
+  background-color: #ffffff;
+  color: #000; /* Ensure text is readable */
+}
+
+body {
+  background-color: #fff;
+  color: #111;
+}
+
+button, input[type="submit"] {
+  background-color: #007BFF;
+  color: white;
+}
