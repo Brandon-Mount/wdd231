@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Central City Park",
+    "image": "images/discover/central-city-park.webp",
+    "address": "101 Parkview Dr, YourTown, ST 12345",
+    "description": "A popular destination for families and outdoor lovers, Central City Park features walking trails, a splash pad, and weekend events all year round."
+  },
+  {
+    "title": "Local History Museum",
+    "image": "images/discover/history-museum.webp",
+    "address": "85 Heritage Way, YourTown, ST 12345",
+    "description": "Explore the rich history of the region through engaging exhibits, artifacts, and interactive displays that date back over 150 years."
+  },
+  {
+    "title": "Riverwalk Market",
+    "image": "images/discover/riverwalk-market.webp",
+    "address": "200 Riverside Ave, YourTown, ST 12345",
+    "description": "Open every Saturday, this bustling outdoor market features local produce, handmade crafts, food trucks, and live music."
+  },
+  {
+    "title": "Sunset Amphitheater",
+    "image": "images/discover/sunset-amphitheater.webp",
+    "address": "400 Stage Blvd, YourTown, ST 12345",
+    "description": "A scenic venue for concerts and performances with seating for 3,000. The amphitheater hosts local and touring acts throughout the summer."
+  },
+  {
+    "title": "Art & Culture Center",
+    "image": "images/discover/art-center.webp",
+    "address": "50 Gallery Ln, YourTown, ST 12345",
+    "description": "A hub for creativity and expression, offering art exhibits, workshops, and community events for all ages."
+  },
+  {
+    "title": "YourTown Zoo",
+    "image": "images/discover/zoo.webp",
+    "address": "777 Safari Rd, YourTown, ST 12345",
+    "description": "Home to over 300 animals from around the world, the zoo provides educational programs, conservation efforts, and fun for the whole family."
+  },
+  {
+    "title": "Green Valley Golf Course",
+    "image": "images/discover/golf-course.webp",
+    "address": "1200 Golf Club Dr, YourTown, ST 12345",
+    "description": "This 18-hole championship course offers beautiful views, a pro shop, and a full-service clubhouse for players of all skill levels."
+  },
+  {
+    "title": "Mountain View Trails",
+    "image": "images/discover/mountain-trails.webp",
+    "address": "Trailhead Rd, YourTown, ST 12345",
+    "description": "With over 20 miles of hiking and biking paths, Mountain View Trails provide adventure and breathtaking views of the surrounding landscape."
+  }
+]
