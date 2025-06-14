@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse simple, delicious recipes that anyone can cook.">
+  <meta name="author" content="Brandon Mount">
+  <meta property="og:title" content="Cooking Compass Recipes">
+  <meta property="og:description" content="Easy and reliable recipes for home cooks.">
+  <meta property="og:image" content="images/social-preview.jpg">
+  <link rel="stylesheet" href="styles/project.css">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Recipes | Cooking Compass</title>
+  <script type="module" src="scripts/recipes.js" defer></script>
+  <script type="module" src="scripts/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">🥄 Cooking Compass</div>
+    <nav id="nav-menu">
+      <button id="menu-button">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html" class="active">Recipes</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="form.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Cooking Compass</h1>
+    
+  </header>
+
+  <main>
+    <h2>Featured Recipes</h2>
+    <div id="recipe-container" class="recipe-grid">
+      <!-- Recipes will load here -->
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Cooking Compass</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

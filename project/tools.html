@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kitchen Tools | Cooking Compass</title>
+  <link rel="stylesheet" href="styles/project.css" />
+  <meta name="description" content="Discover essential kitchen tools and how to use them." />
+  <meta name="author" content="Brandon Mount" />
+</head>
+<body>
+  <header>
+    <div class="logo">🥄 Cooking Compass</div>
+    <nav id="nav-menu">
+      <button id="menu-button">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="tools.html" class="active">Tools</a></li>
+        <li><a href="form.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Cooking Compass</h1>
+  </header>
+
+  <main>
+    <section id="tools-container" class="tools-grid"></section>
+
+    <!-- Modal -->
+    <div id="tool-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-content">
+        <button id="modal-close" aria-label="Close modal">&times;</button>
+        <h2 id="modal-title"></h2>
+        <img id="modal-image" alt="">
+        <p id="modal-category"></p>
+        <p id="modal-description"></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Cooking Compass</p>
+    <p id="lastModified"></p>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="scripts/tools.js"></script>
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

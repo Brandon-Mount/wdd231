@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Chef's Knife",
+    "image": "chefs-knife.jpg",
+    "category": "Cutting",
+    "description": "A versatile tool for slicing, dicing, and chopping."
+  },
+  {
+    "name": "Mixing Bowl",
+    "image": "mixing-bowl.jpg",
+    "category": "Prep",
+    "description": "Used to combine ingredients efficiently."
+  }
+]

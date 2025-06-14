@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thank You | Cooking Compass</title>
+  <link rel="stylesheet" href="styles/project.css" />
+  <meta name="description" content="Form submission confirmation for Cooking Compass." />
+  <meta name="author" content="Brandon Mount" />
+</head>
+<body>
+  <header>
+    <h1>Thanks for Your Feedback!</h1>
+  </header>
+
+  <main>
+    <p>Here's the information you submitted:</p>
+    <ul id="form-output">
+      <!-- JavaScript will populate this -->
+    </ul>
+  </main>
+
+  <script>
+    // Parse URL parameters and display them
+    const params = new URLSearchParams(window.location.search);
+    const output = document.getElementById('form-output');
+
+    for (const [key, value] of params.entries()) {
+      const li = document.createElement('li');
+      li.textContent = `${key}: ${value}`;
+      output.appendChild(li);
+    }
+  </script>
+</body>
+</html>

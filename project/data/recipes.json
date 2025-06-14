@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Pasta Carbonara",
+    "image": "carbonara.jpg",
+    "time": 30,
+    "difficulty": "Easy",
+    "ingredients": ["pasta", "eggs", "bacon", "cheese", "pepper"]
+  },
+  {
+    "name": "Chicken Stir Fry",
+    "image": "stirfry.jpg",
+    "time": 40,
+    "difficulty": "Medium",
+    "ingredients": ["chicken", "broccoli", "soy sauce", "ginger"]
+  }
+]

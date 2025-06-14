@@ -119,3 +119,205 @@ footer {
   color: white;
   padding: 1rem;
 }
+
+
+
+
+
+/* Recipe Grid Layout */
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Recipe Card Styling */
+.recipe-card {
+  background-color: #fff7ed;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.recipe-card:hover {
+  transform: scale(1.02);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.recipe-card h3 {
+  color: #ff6f3c;
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.recipe-card p {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 0.25rem 0;
+}
+
+@media (max-width: 600px) {
+  .recipe-grid {
+    grid-template-columns: 1fr;
+    padding: 0.5rem;
+  }
+}
+
+
+
+
+
+
+
+/* Last Viewed Highlight */
+.highlight-box {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 1rem;
+  background-color: #fff0e5;
+  border-left: 6px solid #ff6f3c;
+  border-radius: 8px;
+}
+
+.recipe-card.mini {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.recipe-card.mini img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+
+
+
+/* Tools Grid */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.tool-card {
+  background: #fff7ed;
+  border: 2px solid #ff6f3c;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.tool-card:hover,
+.tool-card:focus {
+  transform: scale(1.02);
+  outline: none;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 30, 30, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  position: relative;
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  border-radius: 8px;
+}
+
+#modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #ff6f3c;
+  cursor: pointer;
+}
+
+
+
+
+.feedback-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background: #fff7ed;
+  border: 2px solid #ff6f3c;
+  border-radius: 12px;
+}
+
+.feedback-form fieldset {
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+.feedback-form label {
+  display: block;
+  margin: 0.5rem 0 0.25rem;
+  font-weight: bold;
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.feedback-form button {
+  background-color: #ff6f3c;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #e45a26;
+}

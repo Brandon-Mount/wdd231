@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cooking Compass | Home</title>
+  <link rel="stylesheet" href="styles/project.css" />
+  <link rel="icon" href="images/favicon.ico" />
+  <meta name="description" content="Find recipes, cooking tips, and kitchen tool guides to improve your skills." />
+  <meta name="author" content="Your Name" />
+  <meta property="og:title" content="Cooking Compass" />
+  <meta property="og:description" content="Your guide to better cooking—recipes, tips, and tools for home chefs." />
+  <meta property="og:image" content="images/og-image.jpg" />
+  <meta property="og:url" content="https://yourdomain.com" />
+</head>
+<body>
+  <header>
+    <div class="logo">🥄 Cooking Compass</div>
+    <nav id="nav-menu">
+      <button id="menu-button">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="form.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to Cooking Compass</h1>
+      <p>Your go-to guide for improving your cooking game.</p>
+    </section>
+
+    <section id="tips">
+      <h2>Quick Cooking Tips</h2>
+      <div class="tips-container">
+        <!-- JavaScript will load 3 random tips here -->
+      </div>
+    </section>
+
+    <section id="visit-info">
+      <p id="visit-message"></p>
+    </section>
+
+    <section class="highlighted-recipe">
+      <h2>Featured Recipe</h2>
+      <div class="recipe-card">
+        <img src="images/pasta.jpg" alt="Delicious Pasta" loading="lazy" />
+        <h3>Garlic Butter Pasta</h3>
+        <p>A simple, satisfying meal perfect for beginners.</p>
+        <button id="view-modal">View Details</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Cooking Compass</p>
+    <p id="lastModified"></p>
+  </footer>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="close-modal">&times;</span>
+      <h2>Garlic Butter Pasta</h2>
+      <p>This easy recipe uses spaghetti, garlic, butter, and herbs for a delicious weeknight dinner. Ready in 20 minutes!</p>
+    </div>
+  </div>
+
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
