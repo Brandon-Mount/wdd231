@@ -1,16 +1,65 @@
 [
   {
-    "name": "Pasta Carbonara",
-    "image": "carbonara.jpg",
-    "time": 30,
-    "difficulty": "Easy",
-    "ingredients": ["pasta", "eggs", "bacon", "cheese", "pepper"]
+    "name": "Spaghetti Bolognese",
+    "image": "spaghetti-bolognese.jpg",
+    "time": 45,
+    "difficulty": "Medium",
+    "ingredients": [
+      "Ground beef",
+      "Tomato sauce",
+      "Onion",
+      "Garlic",
+      "Spaghetti",
+      "Olive oil",
+      "Salt",
+      "Pepper"
+    ]
   },
   {
-    "name": "Chicken Stir Fry",
-    "image": "stirfry.jpg",
-    "time": 40,
-    "difficulty": "Medium",
-    "ingredients": ["chicken", "broccoli", "soy sauce", "ginger"]
+    "name": "Pancakes",
+    "image": "pancakes.jpg",
+    "time": 20,
+    "difficulty": "Easy",
+    "ingredients": [
+      "Flour",
+      "Milk",
+      "Eggs",
+      "Baking powder",
+      "Salt",
+      "Butter",
+      "Maple syrup"
+    ]
+  },
+  {
+    "name": "Grilled Chicken Salad",
+    "image": "grilled-chicken-salad.jpg",
+    "time": 30,
+    "difficulty": "Easy",
+    "ingredients": [
+      "Chicken breast",
+      "Mixed greens",
+      "Cherry tomatoes",
+      "Cucumber",
+      "Olive oil",
+      "Lemon juice",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  {
+    "name": "Vegetable Stir-Fry",
+    "image": "vegetable-stirfry.jpg",
+    "time": 25,
+    "difficulty": "Easy",
+    "ingredients": [
+      "Broccoli",
+      "Carrots",
+      "Bell peppers",
+      "Soy sauce",
+      "Garlic",
+      "Ginger",
+      "Sesame oil",
+      "Rice"
+    ]
   }
 ]

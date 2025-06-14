@@ -3,12 +3,48 @@
     "name": "Chef's Knife",
     "image": "chefs-knife.jpg",
     "category": "Cutting",
-    "description": "A versatile tool for slicing, dicing, and chopping."
+    "description": "A versatile tool used for chopping, slicing, and dicing a variety of ingredients."
+  },
+  {
+    "name": "Cutting Board",
+    "image": "cutting-board.jpg",
+    "category": "Prep Surface",
+    "description": "Provides a safe and durable surface for preparing food with knives or other tools."
+  },
+  {
+    "name": "Measuring Cups",
+    "image": "measuring-cups.jpg",
+    "category": "Measuring",
+    "description": "Used for accurately measuring dry and liquid ingredients for recipes."
   },
   {
     "name": "Mixing Bowl",
     "image": "mixing-bowl.jpg",
-    "category": "Prep",
-    "description": "Used to combine ingredients efficiently."
+    "category": "Mixing",
+    "description": "Ideal for combining ingredients when baking or cooking."
+  },
+  {
+    "name": "Whisk",
+    "image": "whisk.jpg",
+    "category": "Stirring",
+    "description": "Perfect for blending ingredients smoothly or incorporating air into a mixture."
+  },
+  {
+    "name": "Frying Pan",
+    "image": "frying-pan.jpg",
+    "category": "Cooking",
+    "description": "A shallow pan used for frying, searing, and browning foods."
+  },
+  {
+    "name": "Spatula",
+    "image": "spatula.jpg",
+    "category": "Flipping",
+    "description": "Used to flip or lift food items, especially in a frying pan or griddle."
+  },
+  {
+    "name": "Colander",
+    "image": "colander.jpg",
+    "category": "Draining",
+    "description": "Used for draining water from boiled ingredients such as pasta or vegetables."
   }
 ]
